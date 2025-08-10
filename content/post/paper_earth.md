@@ -21,7 +21,7 @@ tags:
 素材参考: https://maaot.itch.io/fungal-grotto  
 音乐和音效参考: https://www.bensound.com/   https://freesound.org/  
 <!--more-->
-[下载](/download/WindowsNoEditor.zip)
+[下载](/blog/download/WindowsNoEditor.zip)
 {{< video src="paper_earth.mp4" width="600" >}}
 
 ## 简介
@@ -56,42 +56,42 @@ G 召唤一个量子幽灵并替换操作角色
 设定：(1) 移动: 悬浮模式, W 向上, S 向下, A 向左, D 向右, space 跳跃  (2) 存在时间具有时间限制，并且召唤存在cd
 
 ## 关卡设计
-![](/images/paper_earth/guanka.png)
+![](/blog/images/paper_earth/guanka.png)
 ​
 ## 代码
 ### 地面动画
 ​首先通过is Falling判断玩家角色是否在空中，如果是则进入SkyAnimation模块，如果不是，则进入GroundAnimation模块，其次判断是否在冲刺，是则播放冲刺动画，不是则判断是否在攻击，是则判断是普通攻击还是特殊攻击，不是则通过Get Velocity判断玩家是否在行走，是则播放行走动画，不是则播放待机动画
-![](/images/paper_earth/groundanimation.png)
+![](/blog/images/paper_earth/groundanimation.png)
 
 ### 幽灵控制
 幽灵存在的时间设置为10秒，通过检测countdown是否小于0判断幽灵的行为，若大于0则播放幽灵行动动画，检测触发时间，若小于等于0则将摄像机视角调整为玩家视角后，销毁幽灵对象
-![](/images/paper_earth/ghosthandle.png)
+![](/blog/images/paper_earth/ghosthandle.png)
 
 ### 特殊攻击
 specialattack通过F键盘事件触发，首先长按播放蓄力动画，其次播放攻击动画，并通过SpawnActor生成bullet对象，并对接触到的敌人造成伤害
-![](/images/paper_earth/specialattack.png)
+![](/blog/images/paper_earth/specialattack.png)
 ​
 ### 飞行敌人
 飞行的敌人可以在地图内随意飞行，因此不需要加碰撞检测。通过检测enemy自身与玩家的角色的距离，若小于1000时，enemy朝玩家位置移动，在距离小于100时，对玩家产生30大小的伤害
-![](/images/paper_earth/enemy.png)
+![](/blog/images/paper_earth/enemy.png)
 
 ### 空中动画
 如果玩家判断为空中，判断是否在冲刺，是则播放冲刺动画，不是则判断是否在攻击，是则播放攻击动画，不是则播放下落动画
-![](/images/paper_earth/skyanimation.png)
+![](/blog/images/paper_earth/skyanimation.png)
 
 ## 2D动画素材
 <div style="display: flex; gap: 10px;">
   <!-- walk animation-->
   <div style="flex: 2;">
-    <img src="/images/paper_earth/walk_animation.png" style="width: 100%; height: auto;" alt="行走动画">
+    <img src="/blog/images/paper_earth/walk_animation.png" style="width: 100%; height: auto;" alt="行走动画">
     <figcaption style="text-align:center;">行走动画</figcaption>
   </div>
 
   <!-- bee animation + erinaceeaniae animation -->
   <div style="flex: 1; display: flex; flex-direction: column;">
-    <img src="/images/paper_earth/bee_animation.png" style="width: 95%; height: auto;" alt="怪物1动画">
+    <img src="/blog/images/paper_earth/bee_animation.png" style="width: 95%; height: auto;" alt="怪物1动画">
     <figcaption style="text-align:center;">怪物1动画</figcaption>
-    <img src="/images/paper_earth/Erinaceeainae_animation.png" style="width: 95%; height: auto;" alt="怪物2动画">
+    <img src="/blog/images/paper_earth/Erinaceeainae_animation.png" style="width: 95%; height: auto;" alt="怪物2动画">
     <figcaption style="text-align:center;">怪物2动画</figcaption>
   </div>
 </div>
@@ -99,12 +99,12 @@ specialattack通过F键盘事件触发，首先长按播放蓄力动画，其次
 <!--stay animation + knife animation-->
 <div style="display: flex;">
   <div style="flex: 2;">
-    <img src="/images/paper_earth/stay_animation.png" style="width: 100%; height: auto;" alt="站立动画">
+    <img src="/blog/images/paper_earth/stay_animation.png" style="width: 100%; height: auto;" alt="站立动画">
     <figcaption style="text-align:center;">站立动画</figcaption>
   </div>
 
   <div style="flex: 1;">
-    <img src="/images/paper_earth/knife_animation.png" style="width: 100%; height: auto;" alt="召唤幽灵动画">
+    <img src="/blog/images/paper_earth/knife_animation.png" style="width: 100%; height: auto;" alt="召唤幽灵动画">
     <figcaption style="text-align:center;">召唤幽灵动画</figcaption>
   </div>
 </div>
@@ -112,12 +112,12 @@ specialattack通过F键盘事件触发，首先长按播放蓄力动画，其次
 <!--attack2 sword animation + ghost animation-->
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="/images/paper_earth/attack2_sword_animation.png" style="width: 100%; height: auto;" alt="剑气动画">
+    <img src="/blog/images/paper_earth/attack2_sword_animation.png" style="width: 100%; height: auto;" alt="剑气动画">
     <figcaption style="text-align:center;">剑气动画</figcaption>
   </div>
 
   <div style="flex: 2;">
-    <img src="/images/paper_earth/ghost_animation.png" style="width: 100%; height: auto;" alt="幽灵动画">
+    <img src="/blog/images/paper_earth/ghost_animation.png" style="width: 100%; height: auto;" alt="幽灵动画">
     <figcaption style="text-align:center;">幽灵动画</figcaption>
   </div>
 </div>
@@ -125,12 +125,12 @@ specialattack通过F键盘事件触发，首先长按播放蓄力动画，其次
 <!--attack1 sword animation + dash animation-->
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="/images/paper_earth/attack1_sword_animation.png" style="width: 40%; height: auto; margin: 30px" alt="攻击特效">
+    <img src="/blog/images/paper_earth/attack1_sword_animation.png" style="width: 40%; height: auto; margin: 30px" alt="攻击特效">
     <figcaption style="text-align:center;">攻击特效</figcaption>
   </div>
 
   <div style="flex: 3;">
-    <img src="/images/paper_earth/dash_animation.png" style="width: 100%; height: auto;" alt="冲刺动画">
+    <img src="/blog/images/paper_earth/dash_animation.png" style="width: 100%; height: auto;" alt="冲刺动画">
     <figcaption style="text-align:center;">冲刺动画</figcaption>
   </div>
 </div>
@@ -138,19 +138,19 @@ specialattack通过F键盘事件触发，首先长按播放蓄力动画，其次
 <!--attack1 animation + attack2 animation-->
 <div style="display: flex;">
   <div style="flex: 1;">
-    <img src="/images/paper_earth/attack1_animation.png" style="width: 100%; height: auto; margin: 20px" alt="普通攻击动画">
+    <img src="/blog/images/paper_earth/attack1_animation.png" style="width: 100%; height: auto; margin: 20px" alt="普通攻击动画">
     <figcaption style="text-align:center;">普通攻击动画</figcaption>
   </div>
 
   <div style="flex: 2;">
-    <img src="/images/paper_earth/attack2_animation.png" style="width: 100%; height: auto; margin: 20px" alt="特殊攻击动画">
+    <img src="/blog/images/paper_earth/attack2_animation.png" style="width: 100%; height: auto; margin: 20px" alt="特殊攻击动画">
     <figcaption style="text-align:center;">特殊攻击动画</figcaption>
   </div>
 </div>
 
 <!--jump animation-->
 <div>
-  <img src="/images/paper_earth/jump_animation.png" style="width: 85%; height: auto;" alt="跳跃动画">
+  <img src="/blog/images/paper_earth/jump_animation.png" style="width: 85%; height: auto;" alt="跳跃动画">
   <figcaption style="text-align:center;">跳跃动画</figcaption>
 </div>
 

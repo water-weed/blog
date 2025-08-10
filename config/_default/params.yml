@@ -7,13 +7,13 @@
 menu:
   - name: home
     url: ""
-    icon: '../images/flower.png' # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: '/images/flower.png' # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon: '../images/flower.png'
+    icon: '/images/flower.png'
   - name: about
     url: "about"
-    icon: '../images/flower.png'
+    icon: '/images/flower.png'
   #- name: friend
   #  url: "friend"
   #  icon:
@@ -31,7 +31,7 @@ email: wwaeteed.r@gmail.com
 description: "努力奋斗中..."
 subtitle: "努力奋斗中..."
 
-banner: "images/banner.png"
+banner: "./images/banner.png"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -99,7 +99,7 @@ footer:
   count: true
   busuanzi: true
   icon:
-    url: "../images/flower.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "/images/flower.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: false # whether to use the images as a mask
 
@@ -177,9 +177,9 @@ anchor_icon:  # default use '#' icon, you can use a hexadecimal representation o
 reimu_cursor:
   enable: true
   cursor:
-    default: ../images/cursor/cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
-    pointer: ../images/cursor/cursor-pointer.png
-    text: ../images/cursor/cursor-text.png
+    default: /images/cursor/cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    pointer: /images/cursor/cursor-pointer.png
+    text: /images/cursor/cursor-text.png
 
 icon_font: 4552607_0khxww3tj3q9
 
