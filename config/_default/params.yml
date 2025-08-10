@@ -7,13 +7,13 @@
 menu:
   - name: home
     url: ""
-    icon: '/images/flower.png' # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: '/blog/images/flower.png' # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon: '/images/flower.png'
+    icon: '/blog/images/flower.png'
   - name: about
     url: "about"
-    icon: '/images/flower.png'
+    icon: '/blog/images/flower.png'
   #- name: friend
   #  url: "friend"
   #  icon:
@@ -99,7 +99,7 @@ footer:
   count: true
   busuanzi: true
   icon:
-    url: "/images/flower.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "/blog/images/flower.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: false # whether to use the images as a mask
 
@@ -389,7 +389,7 @@ preloader:
     en: Loading...
     ja: 少女祈祷中...
     pt-BR: Carregando...
-  icon: '../images/flower.png' # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
+  icon: '/blog/images/flower.png' # default use inline svg for fast speed, you can use a image url, like '/images/taichi.png'
   rotate: true # whether to rotate the icon
 
 # see https://github.com/D-Sketon/aos.js
