@@ -28,7 +28,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              github_token:: ${{ secrets.blog_token }} # 刚刚在上面创建的变量名
+              github_token: ${{ secrets.blog_token }} # 刚刚在上面创建的变量名
               publish_branch: gh-pages
               publish_dir: ./public
               commit_message: auto deploy
