@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://water-weed.github.io/blog/'
 title = '东水的blog'
 theme = 'reimu'
 languageCode = 'zh-CN'
