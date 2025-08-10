@@ -28,8 +28,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              PERSONAL_TOKEN: ${{ secrets.blog_token }} # 刚刚在上面创建的变量名
-              EXTERNAL_REPOSITORY: water-weed/dongshui_blog # 如果按照上面的步骤走，则是username/username.github.io第一个仓库名
-              PUBLISH_BRANCH: gh-pages
-              PUBLISH_DIR: ./public
+              github_token:: ${{ secrets.blog_token }} # 刚刚在上面创建的变量名
+              publish_branch: gh-pages
+              publish_dir: ./public
               commit_message: auto deploy
