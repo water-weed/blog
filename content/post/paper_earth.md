@@ -21,10 +21,10 @@ tags:
 素材参考: https://maaot.itch.io/fungal-grotto  
 音乐和音效参考: https://www.bensound.com/   https://freesound.org/  
 <!--more-->
-[下载](/blog/download/WindowsNoEditor.zip)
+[下载](https://files.catbox.moe/9yif1a.zip)
 <!--{{< video src="paper_earth.mp4" width="600" >}}-->
 <video controls width="600" preload="metadata">
-  <source src="/blog/videos/test.mp4" type="video/mp4">
+  <source src="https://files.catbox.moe/ui5bsi.mp4" type="video/mp4">
   您的浏览器不支持 video 标签。
 </video>
 

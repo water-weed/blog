@@ -1,11 +1,11 @@
 @charset "UTF-8";
 :root {
-  --footer-icon: url(/images/flower.png);
+  --footer-icon: url(/blog/images/flower.png);
   --top-icon: url(../images/flower.png);
   --sponsor-icon: url(../images/flower.png);
-  --cursor-default: url(/images/cursor/cursor-default.png), auto;
-  --cursor-pointer: url(/images/cursor/cursor-pointer.png), pointer;
-  --cursor-text: url(/images/cursor/cursor-text.png), text;
+  --cursor-default: url(/blog/images/cursor/cursor-default.png), auto;
+  --cursor-pointer: url(/blog/images/cursor/cursor-pointer.png), pointer;
+  --cursor-text: url(/blog/images/cursor/cursor-text.png), text;
 }
 
 :root {
