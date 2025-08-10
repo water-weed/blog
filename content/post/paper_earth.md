@@ -24,7 +24,7 @@ tags:
 [下载](/blog/download/WindowsNoEditor.zip)
 <!--{{< video src="paper_earth.mp4" width="600" >}}-->
 <video controls width="600" preload="metadata">
-  <source src="/blog/videos/paper_earth.avi" type="video/avi">
+  <source src="/blog/videos/test.mp4" type="video/mp4">
   您的浏览器不支持 video 标签。
 </video>
 
