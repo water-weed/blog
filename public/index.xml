@@ -12,12 +12,39 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Sat, 15 Jan 2022 11:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 11:00:00 -0700</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>多边形复杂度系统</title>
+      <link>http://localhost:1313/blog/post/polygon_complexity_system/</link>
+      <pubDate>Wed, 30 Apr 2025 11:00:00 -0700</pubDate>
+      <author>wwaeteed.r@gmail.com (东水)</author>
+      <guid>http://localhost:1313/blog/post/polygon_complexity_system/</guid>
+      <description>
+        <![CDATA[<h1>多边形复杂度系统</h1><p>作者：东水（wwaeteed.r@gmail.com）</p>
+        
+          <h2 id="基本信息">
+<a class="header-anchor" href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af"></a>
+基本信息
+</h2><p>项目类型：网页应用/计算机图形学<br>
+技术栈：前端：vue.js<br>
+               后端：python<br>
+核心功能：输入多边形 / 计算多边形复杂度 / 数据可视化 / 数据导出 / 理论介绍<br>
+访问链接：http://8.211.35.218:5173/   密码：123456</p>
+        
+        <hr><p>本文2025-04-30首发于<a href='http://localhost:1313/blog/'>东水的blog</a>，最后修改于2025-04-30</p>]]>
+      </description>
+      
+        <category>项目集</category>
+      
+    </item>
     
     
 

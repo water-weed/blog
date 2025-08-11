@@ -8,7 +8,7 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  Paper Earth | 东水
+  多边形复杂度系统 | 东水
 </title>
 <meta
   name="description"
@@ -37,12 +37,12 @@
     crossorigin="anonymous"
   /><link rel="stylesheet" href="/blog/css/loader.css" />
 <meta property="og:type" content="website" />
-  <meta property="og:title" content="Paper Earth | 东水" />
+  <meta property="og:title" content="多边形复杂度系统 | 东水" />
   <meta
     property="og:description"
     content="努力奋斗中..."
   />
-  <meta property="og:url" content="http://localhost:1313/blog/post/paper_earth/" />
+  <meta property="og:url" content="http://localhost:1313/blog/post/polygon_complexity_system/" />
   <meta
     property="og:site_name"
     content="东水的blog"
@@ -52,8 +52,8 @@
     content="/blog/"
   />
   <meta property="article:author" content="东水" />
-  <meta property="article:published_time" content="2022-01-15T11:00:00-07:00" />
-  <meta property="article:modified_time" content="2022-01-15T11:00:00-07:00" /><meta property="article:tag" content="UnrealEngine42d横版" /><meta name="twitter:card" content="summary" />
+  <meta property="article:published_time" content="2025-04-30T11:00:00-07:00" />
+  <meta property="article:modified_time" content="2025-04-30T11:00:00-07:00" /><meta property="article:tag" content="Vue.jsPython网页应用计算机图形学" /><meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="/blog/" />
 <link rel="shortcut icon" href="/blog/favicon.ico"><link rel="stylesheet" href="/blog/css/main.css" />
 <link
@@ -120,9 +120,9 @@
       </span><a id="main-nav-toggle" class="nav-icon"></a>
   </nav>
   <nav id="sub-nav"></nav></div>
-<header id="header"><picture></picture><img  fetchpriority="high" src="/blog/images/banner.png" alt="Paper Earth"><div id="header-outer">
+<header id="header"><picture></picture><img  fetchpriority="high" src="/blog/images/banner.png" alt="多边形复杂度系统"><div id="header-outer">
     <div id="header-title"><a href="/blog/" id="logo">
-            <h1 data-aos="slide-up">Paper Earth</h1>
+            <h1 data-aos="slide-up">多边形复杂度系统</h1>
           </a><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
@@ -138,25 +138,14 @@
   <ul>
     <li><a href="#基本信息">基本信息</a></li>
     <li><a href="#简介">简介</a></li>
-    <li><a href="#灵感来源">灵感来源</a>
+    <li><a href="#算法实现">算法实现</a></li>
+    <li><a href="#系统介绍">系统介绍</a>
       <ul>
-        <li><a href="#背景灵感">背景灵感</a></li>
-        <li><a href="#美术灵感">美术灵感</a></li>
-        <li><a href="#角色设计灵感">角色设计灵感</a></li>
+        <li><a href="#home首页">Home（首页）</a></li>
+        <li><a href="#system系统">System（系统）</a></li>
+        <li><a href="#theory理论">Theory（理论）</a></li>
       </ul>
     </li>
-    <li><a href="#游戏操作">游戏操作</a></li>
-    <li><a href="#关卡设计">关卡设计</a></li>
-    <li><a href="#代码">代码</a>
-      <ul>
-        <li><a href="#地面动画">地面动画</a></li>
-        <li><a href="#幽灵控制">幽灵控制</a></li>
-        <li><a href="#特殊攻击">特殊攻击</a></li>
-        <li><a href="#飞行敌人">飞行敌人</a></li>
-        <li><a href="#空中动画">空中动画</a></li>
-      </ul>
-    </li>
-    <li><a href="#2d动画素材">2D动画素材</a></li>
     <li><a href="#未来计划">未来计划</a></li>
   </ul>
 </nav>
@@ -235,11 +224,11 @@
     class="article-date-link"
     data-aos="zoom-in"
   >
-    <time datetime="2022-01-15 11:00:00 -0700 -0700" itemprop="datePublished"
-      >2022-01-15</time
+    <time datetime="2025-04-30 11:00:00 -0700 -0700" itemprop="datePublished"
+      >2025-04-30</time
     >
     <time style="display: none;" id="post-update-time"
-      >2022-01-15</time
+      >2025-04-30</time
     >
   </span>
 </div>
@@ -253,215 +242,164 @@
     <div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h2 id="基本信息">
 <a class="header-anchor" href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af"></a>
 基本信息
-</h2><p>游戏类型：单人2D横版游戏<br>
-引擎： UnrealEngine4<br>
-运行平台： PC Windows(64-bit)<br>
-素材参考: <a href="https://maaot.itch.io/fungal-grotto">https://maaot.itch.io/fungal-grotto</a><br>
-音乐和音效参考: <a href="https://www.bensound.com/">https://www.bensound.com/</a>   <a href="https://freesound.org/">https://freesound.org/</a></p>
-<p><a href="https://files.catbox.moe/9yif1a.zip">下载</a></p>
-<!--<video controls width="600">
-  <source src="/blog/videos/paper_earth.mp4" type="video/mp4">
-  您的浏览器不支持 video 标签。
-</video>-->
-
-<div class="bilibili-video-wrapper">
-  <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1PTbMzQEDP&danmaku=0&autoplay=0&controls=1"
-    scrolling="no"
-    frameborder="0"
-    allowfullscreen="true">
-  </iframe>
-</div>
-
-<style>
-.bilibili-video-wrapper {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;  
-  height: 0;
-  overflow: hidden;
-}
-.bilibili-video-wrapper iframe {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-</style>
+</h2><p>项目类型：网页应用/计算机图形学<br>
+技术栈：前端：vue.js<br>
+               后端：python<br>
+核心功能：输入多边形 / 计算多边形复杂度 / 数据可视化 / 数据导出 / 理论介绍<br>
+访问链接：http://8.211.35.218:5173/   密码：123456</p>
 <h2 id="简介">
 <a class="header-anchor" href="#%e7%ae%80%e4%bb%8b"></a>
 简介
-</h2><p>Paper Earth 讲述了在地球被二向箔击中的漫长时间后，地球上进化出了可以适应二维世界的生物与生态系统系统，他们有的来自于三维动物的二维化，保有了大部分本来的特征与习性；有的是几种动物的组合，在二维化时被强行组合在了一起，机缘巧合之下进化成了二维世界中的物种。为了抵御失去太阳的严寒，高等的二维动物大多进化出了外壳将自己进行保护，坚硬的外壳很难在抵御严寒的同时也起到很好的保护作用。人类在二维化的最后时间段，建立了有一定几率可以使人类成功二维化的石棺，在地下建立了避难所，希望能为人类保留文明的种子。主角是成功的二维化人类，但是失去了人类时期的记忆，故事从他从石棺中醒来开始。</p>
-<h2 id="灵感来源">
-<a class="header-anchor" href="#%e7%81%b5%e6%84%9f%e6%9d%a5%e6%ba%90"></a>
-灵感来源
-</h2><h3 id="背景灵感">
-<a class="header-anchor" href="#%e8%83%8c%e6%99%af%e7%81%b5%e6%84%9f"></a>
-背景灵感
-</h3><p>游戏背景的灵感来源于科幻小说三体。《三体》是刘慈欣创作的系列长篇科幻小说，讲述了地球人类文明和三体文明的信息交流、生死搏杀及两个文明在宇宙中的兴衰历程。在三体3中，地球文明受到了来自歌者文明维度打击，整个太阳系被二维化，书中有这样的描写：“这是一个死的世界，一张死的画。这个场面是那么的悲壮，真的悲壮！”</p>
-<p>这样的场景是令我震撼的，但同样这样的解决也让我感到悲壮与感伤，因此我产生了描述二维化之后的世界，人类也许找到了生存的契机，生物也幸存下来发生了进化，而这样的世界没有书中描述的那样绝望，这也是我想表达的主题绝境之下也会有希望萌芽。</p>
-<h3 id="美术灵感">
-<a class="header-anchor" href="#%e7%be%8e%e6%9c%af%e7%81%b5%e6%84%9f"></a>
-美术灵感
-</h3><p>美术风格的灵感来源于《空洞骑士》。《空洞骑士》是一款2D动作冒险游戏，开发者是来自澳大利亚的一个只有三个人的小团队Team Cherry，2017年2月25日发售在PC平台。</p>
-<p>空洞骑士色调和叙事结构，使我认识到了暗淡的色调对于孤独氛围的渲染作用，以及对于后末世世界下的主题表达作用，以及碎片化叙事所带来的不同体验与潜力。因此在美术风格整体基调上对《空洞骑士》进行了借鉴。</p>
-<h3 id="角色设计灵感">
-<a class="header-anchor" href="#%e8%a7%92%e8%89%b2%e8%ae%be%e8%ae%a1%e7%81%b5%e6%84%9f"></a>
-角色设计灵感
-</h3><p>角色设计主要来源于《风之旅人》和《光·遇》。《风之旅人》是由Thatgamecompany开发制作的PSN游戏，《光·遇》是由游戏制作人陈星汉及其团队Thatgamecompany开发的社交冒险游戏，两作的主要角色都具有斗篷元素，因此我对其进行了参考。</p>
-<p>武器的设计参考了唐刀中的横刀，唐刀是指唐代的刀，横刀无装饰，为普通兵士所佩带的战斗用刀。</p>
-<h2 id="游戏操作">
-<a class="header-anchor" href="#%e6%b8%b8%e6%88%8f%e6%93%8d%e4%bd%9c"></a>
-游戏操作
-</h2><p><strong>移动方式：</strong><br>
-W 向上, S 向下, A 向左, D 向右, space 跳跃, shift 冲刺.</p>
-<p><strong>攻击模式：</strong><br>
-普通攻击：Q 向前劈砍<br>
-特殊攻击：F 蓄力向前挥出一段剑气，对路径上的敌人造成范围伤害</p>
-<p><strong>幽灵操作：</strong><br>
-G 召唤一个量子幽灵并替换操作角色<br>
-设定：(1) 移动: 悬浮模式, W 向上, S 向下, A 向左, D 向右, space 跳跃  (2) 存在时间具有时间限制，并且召唤存在cd</p>
-<h2 id="关卡设计">
-<a class="header-anchor" href="#%e5%85%b3%e5%8d%a1%e8%ae%be%e8%ae%a1"></a>
-关卡设计
-</h2><p><img src="/blog/images/paper_earth/guanka.png" alt="">
-​</p>
-<h2 id="代码">
-<a class="header-anchor" href="#%e4%bb%a3%e7%a0%81"></a>
-代码
-</h2><h3 id="地面动画">
-<a class="header-anchor" href="#%e5%9c%b0%e9%9d%a2%e5%8a%a8%e7%94%bb"></a>
-地面动画
-</h3><p>​首先通过is Falling判断玩家角色是否在空中，如果是则进入SkyAnimation模块，如果不是，则进入GroundAnimation模块，其次判断是否在冲刺，是则播放冲刺动画，不是则判断是否在攻击，是则判断是普通攻击还是特殊攻击，不是则通过Get Velocity判断玩家是否在行走，是则播放行走动画，不是则播放待机动画
-<img src="/blog/images/paper_earth/groundanimation.png" alt=""></p>
-<h3 id="幽灵控制">
-<a class="header-anchor" href="#%e5%b9%bd%e7%81%b5%e6%8e%a7%e5%88%b6"></a>
-幽灵控制
-</h3><p>幽灵存在的时间设置为10秒，通过检测countdown是否小于0判断幽灵的行为，若大于0则播放幽灵行动动画，检测触发时间，若小于等于0则将摄像机视角调整为玩家视角后，销毁幽灵对象
-<img src="/blog/images/paper_earth/ghosthandle.png" alt=""></p>
-<h3 id="特殊攻击">
-<a class="header-anchor" href="#%e7%89%b9%e6%ae%8a%e6%94%bb%e5%87%bb"></a>
-特殊攻击
-</h3><p>specialattack通过F键盘事件触发，首先长按播放蓄力动画，其次播放攻击动画，并通过SpawnActor生成bullet对象，并对接触到的敌人造成伤害
-<img src="/blog/images/paper_earth/specialattack.png" alt="">
-​</p>
-<h3 id="飞行敌人">
-<a class="header-anchor" href="#%e9%a3%9e%e8%a1%8c%e6%95%8c%e4%ba%ba"></a>
-飞行敌人
-</h3><p>飞行的敌人可以在地图内随意飞行，因此不需要加碰撞检测。通过检测enemy自身与玩家的角色的距离，若小于1000时，enemy朝玩家位置移动，在距离小于100时，对玩家产生30大小的伤害
-<img src="/blog/images/paper_earth/enemy.png" alt=""></p>
-<h3 id="空中动画">
-<a class="header-anchor" href="#%e7%a9%ba%e4%b8%ad%e5%8a%a8%e7%94%bb"></a>
-空中动画
-</h3><p>如果玩家判断为空中，判断是否在冲刺，是则播放冲刺动画，不是则判断是否在攻击，是则播放攻击动画，不是则播放下落动画
-<img src="/blog/images/paper_earth/skyanimation.png" alt=""></p>
-<h2 id="2d动画素材">
-<a class="header-anchor" href="#2d%e5%8a%a8%e7%94%bb%e7%b4%a0%e6%9d%90"></a>
-2D动画素材
-</h2><div style="display: flex; gap: 10px;">
-  <!-- walk animation-->
-  <div style="flex: 2;">
-    <img src="/blog/images/paper_earth/walk_animation.png" style="width: 100%; height: auto;" alt="行走动画">
-    <figcaption style="text-align:center;">行走动画</figcaption>
-  </div>
-  <!-- bee animation + erinaceeaniae animation -->
-  <div style="flex: 1; display: flex; flex-direction: column;">
-    <img src="/blog/images/paper_earth/bee_animation.png" style="width: 95%; height: auto;" alt="怪物1动画">
-    <figcaption style="text-align:center;">怪物1动画</figcaption>
-    <img src="/blog/images/paper_earth/Erinaceeainae_animation.png" style="width: 95%; height: auto;" alt="怪物2动画">
-    <figcaption style="text-align:center;">怪物2动画</figcaption>
-  </div>
-</div>
-<!--stay animation + knife animation-->
-<div style="display: flex;">
-  <div style="flex: 2;">
-    <img src="/blog/images/paper_earth/stay_animation.png" style="width: 100%; height: auto;" alt="站立动画">
-    <figcaption style="text-align:center;">站立动画</figcaption>
-  </div>
-  <div style="flex: 1;">
-    <img src="/blog/images/paper_earth/knife_animation.png" style="width: 100%; height: auto;" alt="召唤幽灵动画">
-    <figcaption style="text-align:center;">召唤幽灵动画</figcaption>
-  </div>
-</div>
-<!--attack2 sword animation + ghost animation-->
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="/blog/images/paper_earth/attack2_sword_animation.png" style="width: 100%; height: auto;" alt="剑气动画">
-    <figcaption style="text-align:center;">剑气动画</figcaption>
-  </div>
-  <div style="flex: 2;">
-    <img src="/blog/images/paper_earth/ghost_animation.png" style="width: 100%; height: auto;" alt="幽灵动画">
-    <figcaption style="text-align:center;">幽灵动画</figcaption>
-  </div>
-</div>
-<!--attack1 sword animation + dash animation-->
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="/blog/images/paper_earth/attack1_sword_animation.png" style="width: 40%; height: auto; margin: 30px" alt="攻击特效">
-    <figcaption style="text-align:center;">攻击特效</figcaption>
-  </div>
-  <div style="flex: 3;">
-    <img src="/blog/images/paper_earth/dash_animation.png" style="width: 100%; height: auto;" alt="冲刺动画">
-    <figcaption style="text-align:center;">冲刺动画</figcaption>
-  </div>
-</div>
-<!--attack1 animation + attack2 animation-->
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="/blog/images/paper_earth/attack1_animation.png" style="width: 100%; height: auto; margin: 20px" alt="普通攻击动画">
-    <figcaption style="text-align:center;">普通攻击动画</figcaption>
-  </div>
-  <div style="flex: 2;">
-    <img src="/blog/images/paper_earth/attack2_animation.png" style="width: 100%; height: auto; margin: 20px" alt="特殊攻击动画">
-    <figcaption style="text-align:center;">特殊攻击动画</figcaption>
-  </div>
-</div>
-<!--jump animation-->
-<div>
-  <img src="/blog/images/paper_earth/jump_animation.png" style="width: 85%; height: auto;" alt="跳跃动画">
-  <figcaption style="text-align:center;">跳跃动画</figcaption>
-</div>
+</h2><p>量化多边形复杂度一直被许多研究领域研究，例如，零件制造，图像处理，模式识别，空间数据库，视觉研究等领域。同时，多边形复杂度也在许多领域有重要的应用，例如作为计算机图形建模的重要参数，帮助分析给定形状的复杂度，以辅助决策并优化图像渲染或零件设计方案。然而，基于不同的认知感受，知识背景和应用，产生了许多不同的多边形复杂度的定义。许多研究者尝试从不同角度和不同理论定义多边形复杂度，如信息论，机器学习，多边形骨架，加权模型等等。</p>
+<p>在这个系统中，实现了八种多边形复杂度的计算方法，并实现了三种输入多边形的方式，数据可视化，数据导出等功能。</p>
+<h2 id="算法实现">
+<a class="header-anchor" href="#%e7%ae%97%e6%b3%95%e5%ae%9e%e7%8e%b0"></a>
+算法实现
+</h2><ul>
+<li>下采样区域 downsampling area</li>
+<li>下采样边界 downsampling boundary</li>
+<li>基于边界的方法 boundary</li>
+<li>三角剖分 triangulation</li>
+<li>熵 Entropy</li>
+<li>中轴变换 Medial Axis Transform（MAT）</li>
+<li>扩展距离函数 Extended Distance Function （EDF）</li>
+<li>加权模型：振动频率，振动幅度，偏离凸包的程度 weighted measure: frequency of vibration, amplitude of vibration, deviation from the convex hull</li>
+</ul>
+<h2 id="系统介绍">
+<a class="header-anchor" href="#%e7%b3%bb%e7%bb%9f%e4%bb%8b%e7%bb%8d"></a>
+系统介绍
+</h2><p>该系统主要由Home（首页），System（系统），Theroy（理论）三个页面构成。</p>
+<h3 id="home首页">
+<a class="header-anchor" href="#home%e9%a6%96%e9%a1%b5"></a>
+Home（首页）
+</h3><p>Home（首页）页面主要介绍了该系统的具体情况和开发背景。以及通过页面的左侧边栏，可以进入其他页面，包括System description（系统描述）页面，System（系统）页面和六个理论子页面。
+<img src="/blog/images/polygon_complexity_system/Home.png" alt="Home（首页）"></p>
+<h3 id="system系统">
+<a class="header-anchor" href="#system%e7%b3%bb%e7%bb%9f"></a>
+System（系统）
+</h3><p>该系统包含三个功能：输入多边形图片，结果数据可视化，结果数据导出。有三种方法可以输入图片：选择已有多边形图片，上传多边形图片或者在网页上绘制多边形。</p>
+<p>System（系统）的开始界面如图所示，用户可以通过Select（选择），Upload（上传），Draw（绘制）三个按钮选择输入多边形图片的方式。通过Download按钮可以导出已有的结果数据为excel文件。System一开始会初始化两个多边形示例并计算其复杂度作为示例，使用户对于计算出的复杂度结构有一个基本认知，从而引导用户更快熟悉该系统。
+<img src="/blog/images/polygon_complexity_system/system1.png" alt="System（系统）开始界面"></p>
+<h4 id="输入多边形">
+<a class="header-anchor" href="#%e8%be%93%e5%85%a5%e5%a4%9a%e8%be%b9%e5%bd%a2"></a>
+输入多边形
+</h4><p>为了满足用户不同的可能的需求，该系统具有三种方式输入多边形图片：从预加载的图片中选择，上传多边形图片，在网页上绘制多边形。</p>
+<p>选择多边形页面如图所示。在该页面中，我们选择了MPEG-7 Core Experiment CE-Shape-1数据集中的多边形图片进行预加载。该数据集由Moving Picture Experts Group创建，包含70种共计1400张多边形图片，即每种包含20个相似的形状对象。这个数据集包含了大量多边形形状并被广泛应用于形状匹配和形状检索研究中。我们从每个种类中选择了一张多边形图片作为用户的选择对象。用户可以通过点击图片进行选择。用户同样可以一次性选择多张多边形图片进行对比。点击Cancel按钮可以取消所有选择，并回到System页面。点击Ok按钮，可以确认上传所有选择的图片并跳转回System页面并显示计算结果。
+<img src="/blog/images/polygon_complexity_system/select.png" alt="选择界面"></p>
+<p>上传多边形页面如图所示。在该页面，用户可以上传自己的多边形图片来计算多边形复杂度。用户可以点击框中的加号，从本地上传图片，上传成功后图片会在框中显示。接受的图片格式包括.jpeg, .jpg, .png, .svg, .bmp和.webp，用户同样可以一次性上传多张图片从而比较结果。用户可以一直点击空白框中加号，添加图片，在将图片上传完成后，可以通过Cancel按钮取消所有上传并回到System页面，或者点击Ok按钮确认将所有多边形图片提交，并返回System页面显示所有上传图片的计算结果。
+<img src="/blog/images/polygon_complexity_system/Upload.png" alt="上传界面"></p>
+<p>绘制多边形页面如图所示。用户可以在框中自由绘制多变形，可以通过Delete last node按钮删除绘制的最后一个几点，或者使用Clear canvas按钮清除绘制的所有图形。使用Cancel按钮可以取消绘制，并不提交返回System页面，使用Ok按钮可以确认绘制的多边形并上传，返回System页面查看计算结果。
+<img src="/blog/images/polygon_complexity_system/draw.png" alt="绘制界面"></p>
+<h4 id="数据可视化">
+<a class="header-anchor" href="#%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96"></a>
+数据可视化
+</h4><p>数据可视化模块在System页面的下半部分。该模块的主体是展示不同多边形运用不同复杂度计算方法计算得到的复杂度的值的表格。通过表格上方的多选栏，可以选择只展示选择了的方法所计算的属性，这能够帮助用户分析和比较特定的计算方法的结果。同时可以通过拖动表头，改变表格中方法排列的顺序，以用户希望的顺序展示结果。
+<img src="/blog/images/polygon_complexity_system/data_visualization.png" alt="可视化模块"></p>
+<p>同时点击计算的复杂度的值，可以进入每个方法的详细页面，可以看到每个方法计算时的详细信息，如图所示，是Downsamping Boundary方法的详细页面。我们在每个方法展示的信息如下表所示，我们希望该页面能够帮助用户更加深入地了解每个复杂度值的计算过程。
+<img src="/blog/images/polygon_complexity_system/detailed.png" alt="详细页面"></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">计算方法</th>
+          <th style="text-align: left">详细信息</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">基于边界的方法 boundary</td>
+          <td style="text-align: left">图片长度 Length， 图片宽度 Width，周长 $L_b$，复杂度 Complexity value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">下采样区域 downsampling area</td>
+          <td style="text-align: left">采样率 Sampling rate，下采样图形占用像素 Downsampled occupied pixels，原本图形占用像素 Original occupied pixels，复杂度 Complexity value，下采样图形 Downsampling image</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">下采样边界 downsampling boundary</td>
+          <td style="text-align: left">采样率 Sampling rate，下采样图形周长 Downsampled length，原本图形周长 Original length，复杂度 Complexity value，下采样图形 Downsampling image</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">扩展距离函数 EDF</td>
+          <td style="text-align: left">EDF值图像 EDF value image，复杂度 Complexity value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">熵 Entropy</td>
+          <td style="text-align: left">熵直方图 Histogram，复杂度 Complexity value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">中轴变换 MAT</td>
+          <td style="text-align: left">MAT值图像 MAT value image，复杂度 Complexity value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">三角剖分 triangulation</td>
+          <td style="text-align: left">三角剖分图 Triangulation image，复杂度 Complexity value</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">加权模型 weighted</td>
+          <td style="text-align: left">振动频率 Amplitude of the vibration，振动幅度 Frequency of the vibration，偏离凸包的程度 Deviation from the convex hull，复杂度 Complexity value</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="数据导出">
+<a class="header-anchor" href="#%e6%95%b0%e6%8d%ae%e5%af%bc%e5%87%ba"></a>
+数据导出
+</h4><p>通过System页面上的download按钮用户可以将数据可视化的表格导出为excel进行保存，如图所示。表格中有多边形的图片和每种方法计算的值。导出的表格中包括的方法为用户在数据可视化模块中选择展示的方法。
+<img src="/blog/images/polygon_complexity_system/export.png" alt="数据导出"></p>
+<h3 id="theory理论">
+<a class="header-anchor" href="#theory%e7%90%86%e8%ae%ba"></a>
+Theory（理论）
+</h3><p>在Theory（理论）页面中，总共有六个子页面，分别介绍了下采样方法 Downsamping，基于边界的方法 Boundary，三角剖分方法 Triangulation，基于熵的方法 Entropy，基于骨架的方法 Skeleton 和加权模型 Weighted, 这六个应用在系统中的复杂度计算方法。下图是介绍下采样方法的页面。在每个子页面中，我们都会从方法的定义和实现过程两方面进行阐述，并提供系统生成的计算结果作为例子，使用户能更加便于理解。
+<img src="/blog/images/polygon_complexity_system/Theory.png" alt="数据导出"></p>
 <h2 id="未来计划">
 <a class="header-anchor" href="#%e6%9c%aa%e6%9d%a5%e8%ae%a1%e5%88%92"></a>
 未来计划
-</h2><p><strong>boss1： 失败的同族</strong><br>
-设定： 失败的二维人的聚合体，没有智慧，一切行为皆是为了遵循生存的欲望<br>
-移动方式：上 下 左 右 跳跃 瞬移<br>
-攻击方式：平砍 围绕自身的圆形攻击 围绕自身的环形攻击 大伤害直线攻击并伴有落石</p>
-<p><strong>boss2： 星火</strong><br>
-设定：由灯灵汇聚形成的聚集体，在失去了太阳的照耀下，也足以照亮一方土地，已经进化出了外壳，具有一定的智慧<br>
-移动方式：悬浮<br>
-攻击方式：外壳未被击穿时，发生激光，并在接触时进行扣血，外壳击穿时，定时对角色所在的位置进行攻击</p>
-<p><strong>机制：外壳</strong><br>
-怪物有外壳保护，只有在幽灵攻击并打破外壳后，才能对怪物造成伤害。</p></div>
+</h2><ul>
+<li>对复杂多边形的支持：未来的版本将支持计算复杂多边形的复杂度，包括自交多边形和有洞的多边形</li>
+<li>加入更多的计算方法</li>
+<li>对复杂度的值进行归一化：我们计划将所有复杂度结果归一化到[0,1]，从而使得不同方法之间对比更加容易</li>
+<li>加强数据可视化：添加饼图，折线图，雷达图和其他可视化工具，使得结果更加易于理解</li>
+<li>改善服务器表现：提高服务器带宽，提高响应速度</li>
+</ul></div>
     <footer class="article-footer"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
-        href="/blog/tags/unrealengine4"
+        href="/blog/tags/vue.js"
         rel="tag"
-        >UNREALENGINE4</a
+        >VUE.JS</a
       >
     </li><li class="article-tag-list-item" data-aos="zoom-in">
       <a
         class="article-tag-list-link"
-        href="/blog/tags/2d%e6%a8%aa%e7%89%88"
+        href="/blog/tags/python"
         rel="tag"
-        >2D横版</a
+        >PYTHON</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/blog/tags/%e7%bd%91%e9%a1%b5%e5%ba%94%e7%94%a8"
+        rel="tag"
+        >网页应用</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/blog/tags/%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%9b%be%e5%bd%a2%e5%ad%a6"
+        rel="tag"
+        >计算机图形学</a
       >
     </li></ul>
 </footer>
   </div><nav
     id="article-nav"
     data-aos="fade-up"
-  ><div class="article-nav-link-wrap article-nav-link-right"><img
-              data-src="/blog/images/cover/bg7.png"
+  ><div class="article-nav-link-wrap article-nav-link-left"><img
+              data-src="/blog/images/cover/bg3.png"
               data-sizes="auto"
-              alt="多边形复杂度系统"
+              alt="Paper Earth"
               class="lazyload"
-            /><a href="/blog/post/polygon_complexity_system/"></a>
-        <div class="article-nav-caption">后一篇</div>
-        <h3 class="article-nav-title">多边形复杂度系统</h3>
+            /><a href="/blog/post/paper_earth/"></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">Paper Earth</h3>
       </div></nav></article></section>
         </div><footer id="footer">
   <div style="width: 100%; overflow: hidden">
@@ -514,25 +452,14 @@ G 召唤一个量子幽灵并替换操作角色<br>
   <ul>
     <li><a href="#基本信息">基本信息</a></li>
     <li><a href="#简介">简介</a></li>
-    <li><a href="#灵感来源">灵感来源</a>
+    <li><a href="#算法实现">算法实现</a></li>
+    <li><a href="#系统介绍">系统介绍</a>
       <ul>
-        <li><a href="#背景灵感">背景灵感</a></li>
-        <li><a href="#美术灵感">美术灵感</a></li>
-        <li><a href="#角色设计灵感">角色设计灵感</a></li>
+        <li><a href="#home首页">Home（首页）</a></li>
+        <li><a href="#system系统">System（系统）</a></li>
+        <li><a href="#theory理论">Theory（理论）</a></li>
       </ul>
     </li>
-    <li><a href="#游戏操作">游戏操作</a></li>
-    <li><a href="#关卡设计">关卡设计</a></li>
-    <li><a href="#代码">代码</a>
-      <ul>
-        <li><a href="#地面动画">地面动画</a></li>
-        <li><a href="#幽灵控制">幽灵控制</a></li>
-        <li><a href="#特殊攻击">特殊攻击</a></li>
-        <li><a href="#飞行敌人">飞行敌人</a></li>
-        <li><a href="#空中动画">空中动画</a></li>
-      </ul>
-    </li>
-    <li><a href="#2d动画素材">2D动画素材</a></li>
     <li><a href="#未来计划">未来计划</a></li>
   </ul>
 </nav>
@@ -626,9 +553,9 @@ G 召唤一个量子幽灵并替换操作角色<br>
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "东水",
-          title: "Paper Earth",
-          url: "http:\/\/localhost:1313\/blog\/post\/paper_earth\/",
-          description: "\r基本信息\r游戏类型：单人2D横版游戏\n引擎： UnrealEngine4\n运行平台： PC Windows(64-bit)\n素材参考: https:\/\/maaot.itch.io\/fungal-grotto\n音乐和音效参考: https:\/\/www.bensound.com\/ https:\/\/freesound.org\/\n",
+          title: "多边形复杂度系统",
+          url: "http:\/\/localhost:1313\/blog\/post\/polygon_complexity_system\/",
+          description: "\r基本信息\r项目类型：网页应用\/计算机图形学\n技术栈：前端：vue.js\n后端：python\n核心功能：输入多边形 \/ 计算多边形复杂度 \/ 数据可视化 \/ 数据导出 \/ 理论介绍\n访问链接：http:\/\/8.211.35.218:5173\/ 密码：123456\n",
           cover: "http:\/\/localhost:1313\/blog\/images\/banner.png",
         };
       </script><script src="/blog/js/insert_highlight.js" data-pjax></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const pswp = () => {
@@ -650,7 +577,28 @@ G 召唤一个量子幽灵并替换操作角色<br>
         } else {
           window.addEventListener('lightbox:ready', pswp);
         }
-      </script></div>
+      </script><script
+    src="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.js"
+    data-pjaxintegrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc&#43;T1b2N&#43;teh/OJfpU0jr6" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/katex@0.16.22/dist/contrib/auto-render.min.js"
+    data-pjaxintegrity="sha384-hCXGrW6PitJEwbkoStFjeJxv&#43;fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script><script data-pjax>
+          var renderMath = () => {
+            if (!window.renderMathInElement) return;
+            window.renderMathInElement(_$("article"), {
+              delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "\\[", right: "\\]", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+              ],
+            });
+          };
+          if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", renderMath, { once: true });
+          } else {
+            renderMath();
+          }
+        </script></div>
 </div><script
     src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
     asyncintegrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
