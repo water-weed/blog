@@ -33,9 +33,38 @@
           <h2 id="基本信息">
 <a class="header-anchor" href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af"></a>
 基本信息
-</h2>
+</h2><p>项目类型：网页应用/计算机图形学<br>
+技术栈：前端：vue.js<br>
+               后端：python<br>
+核心功能：输入多边形 / 计算多边形复杂度 / 数据可视化 / 数据导出 / 理论介绍<br>
+访问链接：http://8.211.35.218:5173/   密码：123456</p>
         
         <hr><p>本文2025-04-30首发于<a href='http://localhost:1313/blog/'>东水的blog</a>，最后修改于2025-04-30</p>]]>
+      </description>
+      
+        <category>项目集</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Mocappobia</title>
+      <link>http://localhost:1313/blog/post/mocappobia/</link>
+      <pubDate>Tue, 28 Jun 2022 11:00:00 -0700</pubDate>
+      <author>wwaeteed.r@gmail.com (东水)</author>
+      <guid>http://localhost:1313/blog/post/mocappobia/</guid>
+      <description>
+        <![CDATA[<h1>Mocappobia</h1><p>作者：东水（wwaeteed.r@gmail.com）</p>
+        
+          <h2 id="基本信息">
+<a class="header-anchor" href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af"></a>
+基本信息
+</h2><p>项目类型：动作捕捉动画短片
+使用工具：UnrealEngine4，MetaHuman，Live Link Face
+参与工作：场景搭建，台本设计，视频剪辑</p>
+        
+        <hr><p>本文2022-06-28首发于<a href='http://localhost:1313/blog/'>东水的blog</a>，最后修改于2022-06-28</p>]]>
       </description>
       
         <category>项目集</category>
