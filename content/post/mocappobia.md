@@ -17,9 +17,9 @@ tags:
 ---
 
 ## 基本信息
-项目类型：动作捕捉动画短片
-使用工具：UnrealEngine4，MetaHuman，Live Link Face
-参与工作：场景搭建，台本设计，视频剪辑
+项目类型：动作捕捉动画短片  
+使用工具：UnrealEngine4，MetaHuman，Live Link Face  
+参与工作：场景搭建，台本设计，视频剪辑  
 
 ## 背景介绍
 在完成了动作捕捉之后，三个学生发现，实验室门外不是熟悉的走廊……
