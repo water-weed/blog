@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on 东水的blog</title>
+    <link>http://localhost:1313/blog/tags/unity/</link>
+    <description>Recent content from 东水的blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    
+    <managingEditor>wwaeteed.r@gmail.com (东水)</managingEditor>
+    <webMaster>wwaeteed.r@gmail.com (东水)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Fri, 16 Jun 2023 11:00:00 -0700</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/blog/tags/unity/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Bunny Hunter</title>
+      <link>http://localhost:1313/blog/post/bunny_hunter/</link>
+      <pubDate>Fri, 16 Jun 2023 11:00:00 -0700</pubDate>
+      <author>wwaeteed.r@gmail.com (东水)</author>
+      <guid>http://localhost:1313/blog/post/bunny_hunter/</guid>
+      <description>
+        <![CDATA[<h1>Bunny Hunter</h1><p>作者：东水（wwaeteed.r@gmail.com）</p>
+        
+          <h2 id="基本信息">
+<a class="header-anchor" href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af"></a>
+基本信息
+</h2><p>游戏类型：单人2D射击小游戏<br>
+引擎：Unity<br>
+运行平台：Android</p>
+<h2 id="项目背景">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e8%83%8c%e6%99%af"></a>
+项目背景
+</h2><p>本小游戏旨在研究在手机端游戏中，不同输入方式对用户准确度与用户体验的影响</p>
+        
+        <hr><p>本文2023-06-16首发于<a href='http://localhost:1313/blog/'>东水的blog</a>，最后修改于2023-06-16</p>]]>
+      </description>
+      
+        <category>项目集</category>
+      
+    </item>
+    
+  </channel>
+</rss>

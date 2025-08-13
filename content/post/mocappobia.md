@@ -1,8 +1,8 @@
 ---
 title: 'Mocappobia'
 
-date: 2022-06-28T11:00:00-07:00
-lastmod: 2022-06-28T11:00:00-07:00
+date: 2023-06-28T11:00:00-07:00
+lastmod: 2023-06-28T11:00:00-07:00
 
 draft: ture
 math: true

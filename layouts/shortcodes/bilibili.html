@@ -1,7 +1,7 @@
 <!-- layouts/shortcodes/bilibili.html -->
 <div class="bilibili-video-wrapper">
   <iframe
-    src="https://player.bilibili.com/player.html?bvid={{ .Get "bvid" }}&danmaku=0&autoplay=0&controls=1"
+    src="https://player.bilibili.com/player.html?bvid={{ .Get "bvid" }}&p={{ with .Get "p" }}{{ . }}{{ else }}1{{ end }}&danmaku=0&autoplay=0&controls=1"
     scrolling="no"
     frameborder="0"
     allowfullscreen="true">
