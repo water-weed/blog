@@ -2,7 +2,7 @@
 title: '多边形复杂度系统'
 
 date: 2025-04-30T11:00:00-07:00
-lastmod: 2025-04-30T11:00:00-07:00
+lastmod: 2025-10-02T11:00:00-07:00
 
 draft: ture
 math: true
@@ -21,7 +21,7 @@ tags:
 技术栈：前端：vue.js  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后端：python  
 核心功能：输入多边形 / 计算多边形复杂度 / 数据可视化 / 数据导出 / 理论介绍  
-访问链接：http://8.211.35.218:5173/ &nbsp;&nbsp;密码：123456  
+访问链接：http://8.145.55.55:5173/ &nbsp;&nbsp;密码：123456  
 <!--more-->
 
 ## 简介
